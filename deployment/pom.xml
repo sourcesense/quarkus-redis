@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.quarkus</groupId>
+    <groupId>com.sourcesense.quarkus</groupId>
     <artifactId>quarkus-redis-deployment</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>Quarkus - Redis - Deployment</name>
     <parent>
         <artifactId>quarkus-redis-parent</artifactId>
-        <groupId>io.quarkus</groupId>
-        <version>1.0.0</version>
+        <groupId>com.sourcesense.quarkus</groupId>
+        <version>1.0.1</version>
         <relativePath>../</relativePath>
     </parent>
     <dependencies>
@@ -26,9 +26,9 @@
             <version>${quarkus.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.quarkus</groupId>
+            <groupId>com.sourcesense.quarkus</groupId>
             <artifactId>quarkus-redis</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>

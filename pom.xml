@@ -19,11 +19,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.quarkus</groupId>
+    <groupId>com.sourcesense.quarkus</groupId>
     <artifactId>quarkus-redis-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>Quarkus - Redis</name>
     <packaging>pom</packaging>
+    <distributionManagement>
+        <repository>
+            <id>nexus-sole</id>
+            <url>http://10.98.221.201:8083/repository/maven-releases/</url>
+        </repository>
+        <!--<repository>-->
+            <!--<id>nexus-public</id>-->
+            <!--<url>https://nexus.sourcesense.com/repository/sourcesense-mvn-pub</url>-->
+        <!--</repository>-->
+    </distributionManagement>
+
     <properties>
         <quarkus.version>0.15.0</quarkus.version>
         <maven.compiler>3.8.0</maven.compiler>
