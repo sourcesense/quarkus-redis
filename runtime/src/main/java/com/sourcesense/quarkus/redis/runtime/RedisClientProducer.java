@@ -1,6 +1,4 @@
-package io.quarkus.redis.runtime;
-
-import java.net.URI;
+package com.sourcesense.quarkus.redis.runtime;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.Dependent;

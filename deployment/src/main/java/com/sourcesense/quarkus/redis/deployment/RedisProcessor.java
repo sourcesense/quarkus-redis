@@ -1,4 +1,4 @@
-package io.quarkus.redis.deployment;
+package com.sourcesense.quarkus.redis.deployment;
 
 import io.quarkus.arc.deployment.AdditionalBeanBuildItem;
 import io.quarkus.arc.deployment.BeanContainerBuildItem;
@@ -12,9 +12,9 @@ import io.quarkus.deployment.builditem.ServiceStartBuildItem;
 import io.quarkus.deployment.builditem.ShutdownContextBuildItem;
 import io.quarkus.deployment.builditem.substrate.ReflectiveClassBuildItem;
 import io.quarkus.deployment.builditem.substrate.SubstrateProxyDefinitionBuildItem;
-import io.quarkus.redis.runtime.RedisClientProducer;
-import io.quarkus.redis.runtime.RedisClientTemplate;
-import io.quarkus.redis.runtime.RedisConfiguration;
+import com.sourcesense.quarkus.redis.runtime.RedisClientProducer;
+import com.sourcesense.quarkus.redis.runtime.RedisClientTemplate;
+import com.sourcesense.quarkus.redis.runtime.RedisConfiguration;
 import io.quarkus.runtime.RuntimeValue;
 import org.apache.commons.pool2.*;
 import org.apache.commons.pool2.impl.BaseGenericObjectPool;

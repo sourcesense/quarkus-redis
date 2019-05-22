@@ -1,4 +1,4 @@
-package io.quarkus.redis.runtime;
+package com.sourcesense.quarkus.redis.runtime;
 
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;

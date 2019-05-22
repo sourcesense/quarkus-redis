@@ -1,4 +1,4 @@
-package io.quarkus.redis.deployment;
+package com.sourcesense.quarkus.redis.deployment;
 
 import io.quarkus.builder.item.SimpleBuildItem;
 import io.quarkus.runtime.RuntimeValue;

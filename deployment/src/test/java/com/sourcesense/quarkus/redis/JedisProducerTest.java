@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.quarkus.redis;
+package com.sourcesense.quarkus.redis;
 
 import io.quarkus.test.QuarkusUnitTest;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
